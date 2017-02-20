@@ -33,3 +33,10 @@ nltk.corpus.gutenberg.sents('chesterton-brown.txt')
 ```
 return list of sentences in chesterton-brown.txt
 
+## Loading a corpus in NLTK
+```python
+from nltk.corpus import PlaintextCorpusReader
+corpus_root = '/tmp' # or other location if you want to specify one corpus
+wordlists = PlaintextCorpusReader(corpus_root, '.*')
+wordlists.fileids()
+```
