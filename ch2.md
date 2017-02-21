@@ -40,3 +40,24 @@ corpus_root = '/tmp' # or other location if you want to specify one corpus
 wordlists = PlaintextCorpusReader(corpus_root, '.*')
 wordlists.fileids()
 ```
+
+## Conditional Frequency Distribution
+Show the frequency of word under different categories.
+```python
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
+import nltk
+from nltk.corpus import brown #brown is sorted by categories
+
+genre_word = [(genre, word) 
+             for genre in brown.categories()
+             for word in brown.words(categories=genre)
+             ]
+# genre = all categories in brown, word = word list in **a** certain category
+# (genre,word) is a pair of category and voc
+
+cfd = nltk.ConditionalFreqDist(genre_word) #create a conditional freqency distribution
+
+cfd.plot(conditions=[cat_1,cat_2,...,cat_n], samples = [u'term1', u'term2', ..., u'term_n']) #create a plot
