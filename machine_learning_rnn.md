@@ -34,8 +34,8 @@ FYI, I used native pip to download Tensorflow.
 ## Step 4: Train the model
 **This step will take huge amount time to accomplish. Don't try this unless you are not going to use your Mac for the next 12 hours. During the training, make sure your computer is plugged in. It is worth mentionning that your Mac will be extremely slow at multitasking while trainning**
 
-``python
+```python
 cd directory_location_word_cnn #switch the directory to the folder of rnn model
-``
+```
 
 
