@@ -13,4 +13,29 @@ You show a computer some sample text (for example, the Harry Potter books).
 6. Eventually, you tell the computer to stop guessing after many words, and you have successfully created your Deep Writing.
 
 ## Step 1: Download the code
+We are going to use code written by Sung Kim (who teaches computer science at HKUST). https://github.com/hunkim/word-rnn-tensorflow/branches (Download the code in our repository because I have done some modification in order to make it compatible with our setting up)
+
+## Step 2: Customize the text
+Find word-rnn-tensorflow-master > data > tinyshakespeare > input.txt. Then, delete all the text in the file, and replace it with the sample text that you want to use.
+
+The longer the sample text, the “better” the output will be. Of course, the longer the sample text, the longer it will take to train your model. 
+
+Caution: don't make the sample text too long, it will take forever to run the program. 
+
+## Step 3: Install Tensorflow
+TensorFlow is a machine learning library made by Google. We need to download it in order to run our code. Be sure to download tensorflow 1.0. Otherwise, the code won't work. 
+
+Use this link to finish the installation: https://www.tensorflow.org/install/install_mac
+
+Caution: our code only work with MacOs, Be sure to satisfy all the requirements. 
+
+FYI, I used native pip to download Tensorflow. 
+
+## Step 4: Train the model
+**This step will take huge amount time to accomplish. Don't try this unless you are not going to use your Mac for the next 12 hours. During the training, make sure your computer is plugged in. It is worth mentionning that your Mac will be extremely slow at multitasking while trainning**
+
+``python
+cd directory_location_word_cnn #switch the directory to the folder of rnn model
+``
+
 
