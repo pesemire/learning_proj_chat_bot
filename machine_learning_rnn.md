@@ -37,5 +37,23 @@ FYI, I used native pip to download Tensorflow.
 ```python
 cd directory_location_word_cnn #switch the directory to the folder of rnn model
 ```
+```python
+python train.py
+```
 
+## Step 5: Deep writing
+Use sample.py to customize how many words you want in the instance of deep writing. Save and run it as before. 
+
+## Step 6: Read the result and Rerun the model for ramification
+Here is what I got with the starting word "daily" (though bad starting word I know, I randomly picked from the text)
+
+``
+daily, when the tears, of my meditation. the cheerful night, I absolute corners will But not a din of it presently; to put on: And do, before: Thou pernicious tribune! VALERIA: ROMEO: Prithee, save him, sir. PETRUCHIO: My captain hath done, my time too? KING EDWARD IV: Now see, o'clock? Walk to bad, right to frown: O, Lead from my most pardon with our unity. YORK: Saving your it another; and, thou liest, Put to your spirit to help you to thy country's use here to our bed, restored each red dishonour'd our faithful wife: yet I lay him: if you call Your lady; And pluck'd her hearts! swain, help! that time went to the Tower: You seem too many of you. SICINIUS: Well, I have stay'd by this life, or much Percy, In your bed. GRUMIO: Is't great more grievous given, have Romeo had no day, hang, hope, some deed shall follow all them. Messenger: What Isabel, comes to the king Where thou shall slide on her arms As those lies like a hands To show about thee. GONZALO: Ay, though thou art hate on every orange issue. Keeper: fasten your hand the herald must be brother, ere I never
+``
+
+Not even close to Nobel Prize in litterature but fine this is only the first step. I personally find it interesting. 
+
+To make it more readable, I need to re-run the model for more rounds to polish the model and feed it with longer text/corpus.
+
+Hope you like it. Poke me if you have questions. 
 
