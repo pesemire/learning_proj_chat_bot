@@ -1,5 +1,6 @@
 # learning_proj_chat_bot
  Tutorial: http://www.shareditor.com/blogshow/?blogId=63
+ Corpus ressource: https://github.com/candlewill/Dialog_Corpus
 
 # 预备知识
 聊天机器人涉及到的知识主要是自然语言处理，当然这包括了：语言分析和理解、语言生成、机器学习、人机对话、信息检索、信息传输与信息存储、文本分类、自动文摘、数学方法、语言资源、系统评测等内容，同时少不了的是支撑着一切的编程技术
