@@ -1,5 +1,6 @@
 # learning_proj_chat_bot
  Tutorial: http://www.shareditor.com/blogshow/?blogId=63
+ 
  Corpus ressource: https://github.com/candlewill/Dialog_Corpus
 
 # 预备知识
